@@ -10,7 +10,7 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://life-decision.github.io/life-decision/" />
 
-  <!-- Open Graph / Social Preview -->
+  <!-- Open Graph -->
   <meta property="og:title" content="人生決策結構分析｜轉職、方向選擇的風險與節奏判斷" />
   <meta property="og:description" content="人生卡關時，用結構化分析拆解選項、辨識風險、整理節奏與下一步。不是算命，是清晰判斷。" />
   <meta property="og:url" content="https://life-decision.github.io/life-decision/" />
@@ -19,7 +19,7 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
-  <!-- Twitter / X / Threads -->
+  <!-- Twitter / X / Threads / LINE -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="人生決策結構分析｜轉職、方向選擇的風險與節奏判斷" />
   <meta name="twitter:description" content="不是算命，是用結構化分析，讓你在關鍵時刻做出更不後悔的決定。" />
@@ -65,6 +65,38 @@
       border:1px solid rgba(255,255,255,.14);
       background:rgba(255,255,255,.06);
       color:#d6dcff;
+    }
+
+    /* ====== NEW: Banner ====== */
+    .banner{
+      margin-top:14px;
+      border-radius:18px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.10);
+      box-shadow: var(--shadow);
+      position:relative;
+      height:240px;
+      background:
+        linear-gradient(90deg, rgba(11,15,25,.88) 0%, rgba(11,15,25,.45) 55%, rgba(11,15,25,.10) 100%),
+        url("og-cover.jpg") center/cover no-repeat;
+    }
+    @media (max-width:900px){ .banner{height:180px} }
+    .bannerInner{
+      position:absolute;
+      left:20px; right:20px; bottom:18px;
+      max-width:820px;
+    }
+    .bannerTitle{
+      margin:0 0 6px;
+      font-size:22px;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    .bannerSub{
+      margin:0;
+      color:#dbe4ff;
+      font-size:13px;
+      opacity:.95;
     }
 
     .hero{margin-top:18px; display:grid; grid-template-columns:1.35fr .65fr; gap:14px}
@@ -148,7 +180,6 @@
     }
     .line{height:1px; background:var(--line); margin:16px 0}
     .small{font-size:13px; color:var(--muted)}
-    .muted{color:var(--muted)}
     .tagline{display:flex; gap:8px; flex-wrap:wrap; margin-top:10px}
 
     /* Pricing cards */
@@ -223,6 +254,14 @@
       <a href="#contact">聯絡</a>
     </div>
     <span class="chip">對外版本｜不露個人身份</span>
+  </div>
+
+  <!-- Banner (visible on website) -->
+  <div class="banner" aria-label="人生決策結構分析封面圖">
+    <div class="bannerInner">
+      <div class="bannerTitle">人生卡關不是你不夠努力，是選項太像。</div>
+      <div class="bannerSub">用結構化分析拆解選項、辨識風險、排出節奏與退路（不是算命）。</div>
+    </div>
   </div>
 
   <!-- HERO -->
@@ -390,7 +429,7 @@
       <h2>方案與流程</h2>
       <p class="small">
         你可以先從輕量開始，也可以一次做完整。<br>
-        （若你想先試試看我們的方式，建議從 <strong>標準版</strong> 開始。）
+       （若你想先試試看我們的方式，建議從 <strong>標準版</strong> 開始。）
       </p>
 
       <div class="pricing" style="margin-top:14px;">
