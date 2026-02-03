@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>人生決策結構分析</title>
-  <meta name="description" content="結合結構分析與現實條件，協助你釐清當下重要決策的風險、節奏與行動方向。" />
+
+  <title>人生卡關怎麼辦？轉職、方向選擇的人生決策結構分析</title>
+  <meta name="description" content="在人生轉職、方向選擇、家庭與財務壓力下，協助你把重要決策想清楚的人生決策結構分析服務。不是算命，是風險與節奏判斷。" />
+
   <style>
     :root{
       --bg:#0b0f19; --card:#11172a; --muted:#a7b0c3; --text:#eef2ff;
@@ -21,14 +23,16 @@
     }
     a{color:inherit; text-decoration:none}
     .wrap{max-width:980px; margin:0 auto; padding:28px 18px 80px}
+
     .topbar{
-      display:flex; align-items:center; justify-content:space-between; gap:12px;
-      position:sticky; top:0; padding:12px 0; backdrop-filter: blur(10px);
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; position:sticky; top:0; padding:12px 0;
+      backdrop-filter: blur(10px);
     }
-    .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.5px}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700}
     .dot{width:10px; height:10px; border-radius:999px;
          background:linear-gradient(135deg,var(--accent),#60a5fa)}
-    .nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
+    .nav{display:flex; gap:14px; flex-wrap:wrap}
     .nav a{font-size:14px; color:var(--muted)}
     .nav a:hover{color:var(--text)}
 
@@ -44,10 +48,11 @@
       border-radius:18px; padding:22px;
       box-shadow: 0 10px 35px rgba(0,0,0,.25);
     }
+
     .kicker{color:var(--muted); font-size:14px}
     h1{margin:10px 0; font-size:34px; line-height:1.15}
     h2{margin:0 0 10px; font-size:20px}
-    .lead{color:#dbe4ff; font-size:16px; margin:0 0 16px}
+    .lead{color:#dbe4ff; font-size:16px}
 
     .ctaRow{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
     .btn{
@@ -60,12 +65,8 @@
     .btn.primary{
       background:linear-gradient(135deg, var(--accent), #2563eb);
     }
-    .btn.success{
-      background:linear-gradient(135deg, var(--accent2), #16a34a);
-    }
     .btn:hover{transform: translateY(-1px)}
 
-    .small{font-size:13px; color:var(--muted)}
     .pillrow{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
     .pill{
       font-size:12px; padding:6px 10px; border-radius:999px;
@@ -73,16 +74,14 @@
       background:rgba(124,58,237,.12); color:#d6dcff;
     }
 
-    .grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:22px}
+    .grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:28px}
     @media (max-width:860px){ .grid{grid-template-columns:1fr} }
 
     ul{margin:10px 0 0; padding-left:18px; color:#dbe4ff}
-    .section{margin-top:28px}
+    .section{margin-top:32px}
     .split{display:grid; grid-template-columns:1fr 1fr; gap:14px}
     @media (max-width:860px){ .split{grid-template-columns:1fr} }
 
-    .price{font-size:28px; font-weight:800}
-    .line{height:1px; background:rgba(255,255,255,.10); margin:18px 0}
     .notice{
       border-left:3px solid rgba(124,58,237,.8);
       padding:12px 14px;
@@ -90,7 +89,10 @@
       border-radius:12px;
       margin-top:14px;
     }
-    footer{margin-top:32px; font-size:12px; color:var(--muted)}
+
+    .line{height:1px; background:rgba(255,255,255,.10); margin:18px 0}
+    footer{margin-top:40px; font-size:12px; color:var(--muted)}
+    .small{font-size:13px; color:var(--muted)}
   </style>
 </head>
 
@@ -102,7 +104,7 @@
     <div class="nav">
       <a href="#who">適合誰</a>
       <a href="#deliver">服務內容</a>
-      <a href="#pricing">價格</a>
+      <a href="#pricing">流程</a>
       <a href="#faq">FAQ</a>
     </div>
   </div>
@@ -111,10 +113,10 @@
   <div class="hero">
     <div class="card">
       <div class="kicker">不是算命｜結構分析 × 現實決策</div>
-      <h1>我不幫你預測命運，<br>我幫你把當下的重要選擇想清楚。</h1>
+      <h1>人生卡關、轉職猶豫、方向選擇時，<br>先把決定想清楚。</h1>
       <p class="lead">
-        適合卡在工作、家庭、財務與人生方向抉擇的人。
-        分析你的節奏、風險與下一步行動。
+        適合在工作、家庭、財務與人生方向中感到卡住的人，
+        透過結構分析釐清風險、節奏與下一步。
       </p>
 
       <div class="ctaRow">
@@ -123,14 +125,8 @@
            target="_blank" rel="noopener">
           立即填寫資料表（開始分析）
         </a>
-
-        <a class="btn"
-           href="#pricing">
-          先看價格與流程
-        </a>
       </div>
 
-      <!-- 付款方式說明（你要求加入的段落） -->
       <div class="notice">
         <strong>付款方式說明</strong><br>
         目前信用卡金流系統申請中，為確保服務品質與資訊安全，<br>
@@ -141,19 +137,19 @@
       </div>
 
       <div class="pillrow">
-        <span class="pill">轉職與方向</span>
-        <span class="pill">財務與房貸</span>
-        <span class="pill">人生節奏</span>
-        <span class="pill">避免錯誤決策</span>
+        <span class="pill">轉職是否該換</span>
+        <span class="pill">人生方向選擇</span>
+        <span class="pill">中年卡關</span>
+        <span class="pill">避免後悔決定</span>
       </div>
     </div>
 
     <div class="card">
-      <h2>你會得到的是「可用的判斷」</h2>
+      <h2>這不是預言，是判斷</h2>
       <div class="line"></div>
       <div class="notice">
-        <strong>我會做：</strong> 拆結構、找風險、給行動建議<br>
-        <strong>我不做：</strong> 保證結果、情緒安慰、投資明牌
+        <strong>我會做：</strong> 拆解選項、辨識風險、整理節奏<br>
+        <strong>我不做：</strong> 保證結果、情緒安慰、投資建議
       </div>
     </div>
   </div>
@@ -164,8 +160,8 @@
       <h2>適合你，如果你…</h2>
       <ul>
         <li>正在考慮轉職或重大選擇</li>
-        <li>覺得一直很努力卻很卡</li>
-        <li>想知道現在該守還是該動</li>
+        <li>對未來方向感到猶豫</li>
+        <li>不想只靠感覺做決定</li>
       </ul>
     </div>
     <div class="card">
@@ -173,38 +169,15 @@
       <ul>
         <li>想要保證結果</li>
         <li>只想聽好話</li>
-        <li>不願為決定負責</li>
+        <li>不願為選擇負責</li>
       </ul>
     </div>
     <div class="card">
-      <h2>常見分析主題</h2>
+      <h2>常見人生卡關情境</h2>
       <ul>
-        <li>工作與方向選擇</li>
-        <li>家庭與責任壓力</li>
-        <li>財務節奏與風險</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- PRICING -->
-  <div id="pricing" class="section split">
-    <div class="card">
-      <h2>文字分析報告</h2>
-      <div class="price">NT$1,500</div>
-      <ul>
-        <li>客製化文字分析</li>
-        <li>3～5 年節奏與風險</li>
-        <li>Email 回覆交付</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>文字報告＋30 分鐘通話</h2>
-      <div class="price">NT$2,500</div>
-      <ul>
-        <li>文字分析報告</li>
-        <li>30 分鐘通話說明</li>
-        <li>適合需要釐清細節者</li>
+        <li>轉職是否該換</li>
+        <li>家庭與工作的取捨</li>
+        <li>中年方向調整</li>
       </ul>
     </div>
   </div>
@@ -213,14 +186,33 @@
   <div id="faq" class="section card">
     <h2>常見問題</h2>
     <p class="small">
-      本服務為人生決策分析與參考，非命理、非醫療、非投資建議，
+      本服務為人生決策分析與參考，非命理、非醫療、非心理諮商、非投資建議，
       不提供任何結果保證。
     </p>
   </div>
 
+  <!-- SEO -->
+  <section class="section card">
+    <h2>人生卡關與轉職選擇常見問題</h2>
+    <p class="small">
+      許多人在人生不同階段會面臨轉職是否該換、人生方向選擇、
+      家庭與財務壓力下是否適合改變現況等問題。
+      當感到卡關、不確定下一步時，
+      透過人生決策結構分析，可以在做選擇前先看清風險與節奏，
+      避免因一時情緒而做出後悔的決定。
+    </p>
+    <p class="small">
+      本站提供的人生決策結構分析服務，
+      適合正在思考轉職、中年轉向、
+      或人生方向調整的人，
+      協助你在重要時刻把選擇想清楚。
+    </p>
+  </section>
+
   <footer>
     © <span id="y"></span> 人生決策結構分析
   </footer>
+
 </div>
 
 <script>
